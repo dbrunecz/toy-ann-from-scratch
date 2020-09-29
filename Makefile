@@ -3,6 +3,9 @@ CFLAGS+=-ggdb
 
 LDLIBS+=-lm
 
+test: ann
+	./ann
+
 ann:
 
 clean:
